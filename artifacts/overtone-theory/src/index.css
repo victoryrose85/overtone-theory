@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colors */
+  --color-abyss: hsl(261 85% 8%);
+  --color-purple-reign: hsl(272 72% 47%);
+  --color-soft-violet: hsl(270 95% 75%);
+  --color-clean-white: hsl(0 0% 98%);
+  --color-signal-gold: hsl(48 96% 53%);
+  --color-light-violet: hsl(260 100% 97%);
+
+  /* Default mappings */
+  --color-background: var(--color-clean-white);
+  --color-foreground: var(--color-abyss);
+
+  /* Typography */
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: Georgia, 'Times New Roman', Times, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-serif text-base md:text-lg text-foreground bg-background antialiased leading-relaxed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold tracking-tight leading-tight;
+  }
+}
+
+@layer utilities {
+  /* Smooth accordion animation using grid */
+  .accordion-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 300ms ease-out;
+  }
+  
+  .accordion-content[data-state="open"] {
+    grid-template-rows: 1fr;
+  }
+  
+  .accordion-inner {
+    overflow: hidden;
+  }
+
+  /* Custom bullet points for lists */
+  .custom-bullet {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .custom-bullet::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-soft-violet);
+    font-weight: bold;
+  }
+}
