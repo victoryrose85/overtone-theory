@@ -286,8 +286,7 @@ export default function Home() {
       {/* 13. FOOTER */}
       <footer className="bg-abyss text-clean-white/60 py-12 px-6 border-t border-clean-white/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="font-sans text-sm">© MIDWID 2026 | overtonetheory.art</p>
-          <p className="font-sans text-sm text-soft-violet/80 text-center">Payment: Venmo / CashApp (for workshop PWYW)</p>
+          <p className="font-sans text-sm">© MIDWID 2026 | overtonetheory.com</p>
           <a href="#" className="text-clean-white/60 hover:text-signal-gold transition-colors" aria-label="Instagram">
             <Instagram size={20} />
           </a>
