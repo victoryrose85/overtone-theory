@@ -50,8 +50,8 @@ export default function Home() {
               <p>You've got the talent. You've put in the years. You know you're capable of making something that matters.</p>
               <p>But somewhere between the idea in your head and the thing you actually make, something gets lost. The spark fizzles. The inner critic shows up. You walk away feeling more frustrated than when you started.</p>
               <p>So you try harder. You force it. You noodle, you stare at the blank page, you hope inspiration will strike if you just sit there long enough.</p>
-              <p className="font-semibold text-purple-reign">What if I told you that you already innately have the ability to do something about it?</p>
-              <p>The signal is already there — it's always been there. But somewhere along the way, you let the inner voice take over. The one that edits before you create, judges before you finish, and convinces you that nothing you make is good enough.</p>
+              <p className="font-semibold text-purple-reign">But what if I told you that you're naturally equipped to remove your own creative blocks?</p>
+              <p>The signal is already there — it's always been there. But somewhere along the way, you let the inner voice take over. The one that edits before you create, judges before you finish, and convinces you that it's not good enough.</p>
               <p>You got in your own way, and the static took over. That's not a character flaw. You're just human.</p>
               <p className="font-sans font-bold text-xl text-purple-reign pt-4">The Overtone Theory is a fundamental understanding for actively tuning back in.</p>
             </div>
@@ -197,13 +197,13 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-reign">Hey, I'm DJ.</h2>
               <div className="space-y-6 text-lg font-serif leading-relaxed">
                 <p>I'm a musician, producer, both audio and electrical engineer, and the person behind MIDWID and The Overtone Theory.</p>
-                <p>The name MIDWID comes from a quote I've historically attributed to Ray Charles, but have come to find out he never actually said it. Whether or not the source of the quote is correct, the words ring true. When asked how he makes his amazing music, he just laughed and said, "Man, I just make it do what it do."</p>
-                <p className="font-semibold">MIDWID: Make It Do What It Do. That's the philosophy. Don't overthink it. Let the thing be what it is.</p>
-                <p>I started my career at Arlyn Studios in Austin, TX, learning from award-winning producers and engineers. Over the years, I've worked with hundreds of bands across recording studios and live venues, from blues to punk to hip-hop to jazz. I ran live sound at Maggie Mae's for years, including multiple SXSW festival stages.</p>
-                <p>My curious brain wanted to know how the equipment actually worked so badly that I went back to school and earned a Bachelor's degree in Electrical Engineering. That education didn't just teach me about circuits — it taught me how to explain complex things simply, how to troubleshoot, and (most importantly) how to ask the right questions.</p>
-                <p>But here's the thing I didn't expect: I realized the quality of the music has absolutely nothing to do with the quality of the equipment. It has everything to do with the person making it.</p>
-                <p>After years of losing my own creative drive in engineering jobs that didn't fit, I sought out people living the lives I wanted. I learned mental, emotional, and imaginative techniques from them. When I applied those techniques to my own creativity, everything changed. The frustration melted away. The music came freely. I was satisfied after every session, whether or not I made something new.</p>
-                <p>Now I combine those techniques with my experience producing music to help other creatives do the same thing. The Overtone Theory is the result of 15+ years of learning how creative energy actually works — not through theory alone, but through hundreds of real sessions with real people.</p>
+                <p>The name MIDWID comes from a quote I believe is attributed to Ray Charles. When asked how he makes his amazing music, he just laughed and said, "Man, I just make it do what it do."</p>
+                <p className="font-semibold">MIDWID: Make It Do What It Do. That's the philosophy. Don't overthink it. Let the thing be what it wants to be.</p>
+                <p>I started my career at Arlyn Studios in Austin, TX, learning from award-winning producers and engineers. Over the years, I've worked with hundreds of bands across recording studios and live venues, from blues to punk to hip-hop to jazz. I ran live sound at Maggie Mae's on 6th Street for years, including multiple SXSW festival stages. I composed music for short films, worked sound design for documentaries, performed improv, written short stories, painted, and have learned so much about the creative process.</p>
+                <p>And yet, my curious mind wanted to know how audio equipment worked so badly that I went back to school and earned a Bachelor's degree in Electrical Engineering. For as much as I learned about circutry, math, and physics, that experience also taught me how to explain complex things simply, how to troubleshoot, and (most importantly) how to ask the right questions.</p>
+                <p>In my persuit to create equipment that would make my art better, I quickly realized the quality of the music has absolutely nothing to do with the equipment. It has everything to do with the person making it. So, I pivoted to using my degree to get jobs just for the money.</p>
+                <p>After years of losing my own creative drive in engineering jobs that didn't fit, I sought out people living the lives I wanted. I learned mental, emotional, and imaginative techniques from them. When I applied those techniques to my own creativity, it felt like breathing again. The art came freely. I end so many more sessions with satisfaction, whatever the result of the art is.</p>
+                <p>Now I combine those techniques with my experience producing music to help other creatives do the same thing. The Overtone Theory is the result of 15+ years of learning how creative energy actually works. While I call it a theory, it's been developed through a wide range of personal experience through hundreds of real sessions with real people.</p>
                 <p className="text-xl font-bold text-purple-reign pt-4">The world needs more of your art. And selfishly? I just want to experience it.</p>
               </div>
             </FadeIn>
@@ -217,9 +217,9 @@ export default function Home() {
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-8">Workshops</h2>
             <div className="space-y-6 text-lg md:text-xl font-serif text-clean-white/90 mb-12">
-              <p>I run regular workshops here in Portland, OR (and live over Zoom) where you can experience The Overtone Theory firsthand.</p>
+              <p>I run regular workshops in Portland, OR (and live over Zoom) where you can experience The Overtone Theory firsthand.</p>
               <p>In one hour, you'll work through a guided scenario, connect with a brief meditation, and walk away with a real shift in how you understand your own creative process. Some people come once and get what they need. Some come back regularly. Both are great.</p>
-              <p>Workshops are pay-what-you-will. I believe in making this accessible, and I trust you to value it honestly.</p>
+              <p>Workshops have a suggested price, and are always pay-what-you-will. I believe in making this accessible, and I trust you to value it honestly. Nobody will ever be turned away due to lack of funds.</p>
             </div>
             <CtaButton href="https://calendly.com/dj-overtonetheory/overtone-theory-workshop" external>See upcoming workshops</CtaButton>
           </FadeIn>
@@ -232,7 +232,7 @@ export default function Home() {
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-reign">Go deeper</h2>
             <div className="space-y-6 text-lg md:text-xl font-serif mb-12">
-              <p>If you want to go further than a workshop can take you, I work with people one-on-one, or small groups of people working on the same project. These are longer sessions — anywhere from a focused hour to a full day — tailored to where you are and what you're trying to create.</p>
+              <p>If you want to go further than a workshop can take you, I work with people one-on-one, or small groups of people working on the same project. Session duration varies depending on your necessity, ranging from one to eight hours, tailored specifically to where you are and what you're trying to create.</p>
               <p>We'll talk about it on a free call first. No pitch, no pressure. Just a conversation about where you are and whether this is the right fit.</p>
             </div>
             <CtaButton href="https://calendly.com/dj-overtonetheory/30min" external>Book a free call</CtaButton>
@@ -311,20 +311,21 @@ function StoriesSection() {
   const stories = [
     {
       name: "Gerschweyn",
-      content: "Gerschweyn is an extraordinarily talented pianist, singer, and songwriter. He'd written a concept album and brought me in to help with a few tracks. One song — just piano and vocal — he told me he wanted it to be \"huge.\" Epic. Over-the-top. But he couldn't explain what he meant by that.\n\nWe spent nearly a full day together, not working on the music itself, but exploring what he was trying to say with it. The emotions he wanted to convey. The story he was telling. The feeling he wanted the listener to walk away with.\n\nBy creating a space where he could express without judgement — from himself, from me, from the outside world — he found his way into making one of the most creative, moving pieces of music I've ever had the privilege to collaborate on. He was able to honestly transmit the energy he wanted from his art."
+      content: "Gerschweyn is an extraordinarily talented pianist, singer, and songwriter. They'd written a concept album and brought me in to help with a few tracks. One song — just piano and vocal — they wanted it to be \"huge.\" Epic. Over-the-top. But they couldn't explain exactly what was in their head.\n\nWe spent nearly a full day together, not working on the music itself, but exploring what was trying to be said. The emotions to be conveyed. The story to be told. The desired feelings listener should walk away with.\n\nBy creating a space where they could express without judgement — from the ego, from me, from the outside world — we found our way into making one of the most creative, moving pieces of music I've ever had the privilege to collaborate on. The energy from the art was transmitted honestly, clearly, and powerfully. It was, indeed, epic."
     },
+    
     {
-      name: "Patrick",
-      content: "Patrick wasn't a musician. He was just a guy I met at a dive bar.\n\nWe struck up a conversation over a game of pool, and I held open space for him to talk — completely free of judgement, no fear to express himself. He was at a crossroads in life, trying to decide whether to fight for something he loved or pivot to find happiness a different way.\n\nI guided him through a brief meditation where he connected with his own emotions honestly — maybe for the first time. He recognized what he wanted. He knew what he needed to do next.\n\nA month later, I ran into him at the same bar. He'd made changes. The thing he thought he was fighting for wasn't actually a fight — he just had to choose to change his perspective on how he showed up for it. A year after that, he told me point-blank that our conversation that first night changed his entire mode of thinking.\n\nHe'd cleaned up. His face was rested. He carried himself with his shoulders up."
-    },
-    {
-      name: "Sarah",
-      content: "Sarah worked at my favorite coffee shop. She was a visual artist living a financially difficult life, painting and drawing when she could, selling pieces at parks and bars and coffee shops.\n\nBut her dream was an animated series. She'd tell me about it often; she had the whole thing mapped out in her head. But nothing was happening. Fear of judgement. Scarcity. Lack of energy. She was stuck in not knowing how to move forward.\n\nOver a few hangout sessions, I helped her see those fears for what they were and how they were holding her back. The moment she saw it, she knew exactly what needed to happen next. Within a month, she was busier than ever, making real strides in turning those animation dreams into shareable art."
+      name: "Jonny",
+      content: "Jonny is a musician, singer, songwriter, frontman, and all around creative force. A plethora of ideas, that man's well will never run dry. His penchant to grab an idea and run with it is damn impressive.\n\nBut even to a creative guy like Jonny, life just plain gets hard sometimes. And for a person who lives and breathes through his creativity, it became difficult to wade through all of those possibilities while still trying to keep his head above water. I could feel the overwhelm in him.\n\nIt was at this time that I had just compiled my first version of what I'm now calling The Overtone Theory. Being one of my oldest, most trusted friends, he graciously allowed me to teach him what I've learned.\n\nOver a few hours on Zoom, he came to understand exactly what he wanted, exactly what he was trying to do with his art, and clearly identified the next steps he needed to take to get him there.\n\nHe's since returned to the prolific artist he's always been, unafraid to make his process his own, and is actively creating the best art I've heard from him in years."
     },
     {
       name: "Jordan",
-      content: "Jordan is a talented guitarist and live sound engineer who could never find the reason to record his own music. He'd dabble in recording at home but always felt stuck — he didn't know what he wanted his songs to be.\n\nWe spent a day together. I walked him through my understanding of how we interact with creative energy, then we explored what Jordan actually feels when he thinks about his art. He told me he \"doesn't feel things\" in his body.\n\nThrough guided meditation, he reconnected with his body. I had him play his song while I changed his guitar tone to wildly different settings — and he noticed how he played differently just because the sound had changed. He could feel it.\n\nWithin a month, he'd recorded his first song in a professional studio."
-    }
+      content: "Jordan is a talented guitarist and live sound engineer who could never find the reason to record his own music. He'd dabble in recording at home but always felt stuck — he didn't know what he wanted his songs to be.\n\nWe spent a day together. I walked him through my understanding of how we interact with creative energy, then we explored what Jordan actually feels when he thinks about his art. When I asked him how he felt about the demo he shared with me, he told me he \"doesn't feel things\" in his body, even when making the art.\n\nThrough compassionate conversation and a little bit of guided meditation, he reconnected with his body. We then listened back to the demo, independently taking notes on what we felt when we felt it. And wouldn't you know it, Jordan's capability for emotion runs deep. Reconnected, recharged, and invigorated, we sketched out the rest of the track.\n\nWithin a month, he'd recorded his first song in a professional studio."
+    },
+    {
+      name: "Patrick",
+      content: "Patrick isn't an artist. He was just a guy I met at a dive bar.\n\nWe struck up a conversation over a game of pool, and I held open space for him to talk completely free of judgement, no fear to express himself. He was at a crossroads in life, trying to decide whether to fight for something he loved or pivot to find happiness a different way.\n\nI guided him through a brief meditation where he connected with his own emotions honestly — maybe for the first time. He recognized what he wanted. He knew what he needed to do next.\n\nA month later, I ran into him at the same bar. He'd made changes. The thing he thought he was fighting for wasn't actually a fight — he just had to choose to change his perspective on how he showed up for it. A year after that, he told me point-blank that our conversation that first night changed his entire mode of thinking.\n\nHis face was rested. He carried himself with confidence. He smiled.\n\nI include this experience to show that what I have to teach isn't just for folks who consider themselves artists. It's for anyone who wants to create something meaningful."
+    },
   ];
 
   const [activeTab, setActiveTab] = useState(0);
@@ -379,15 +380,15 @@ function FaqSection() {
   const faqs = [
     {
       q: "How much does a one-on-one session cost?",
-      a: "It depends on what you need. Sessions range from a focused hour to a full day, individual or group, and pricing reflects that range. We'll talk about it during your free consultation — no surprises, no pressure."
+      a: "It depends on what you need. Sessions range from a focused hour to a full workday, individual or group, and pricing reflects that range. We'll talk about it during your free consultation. No surprises, no pressure."
     },
     {
       q: "Do I need to be a musician for this to work?",
-      a: "Not at all. I've worked with musicians, visual artists, animators, writers, and people who don't consider themselves \"creative\" at all. The Overtone Theory applies to anyone who wants to access their creative energy more freely."
+      a: "Not at all. I've worked with musicians, visual artists, writers, and people who don't consider themselves \"creative\" at all. The Overtone Theory applies to anyone who wants to access their creative energy more freely."
     },
     {
-      q: "Do I need to be great at my chosen art?",
-      a: "No. Talent and technical skill are helpful, but they're not what's blocking you. The Overtone Theory works with the person, not the tools."
+      q: "But I'm not that talented. Do I need to be really good at my chosen art?",
+      a: "Talent and technical skill are useful, but they're not what's blocking you. Great art comes from expression, not expertise. The Overtone Theory works with the person, not the tools."
     },
     {
       q: "How long does it take to see results?",
@@ -399,11 +400,11 @@ function FaqSection() {
     },
     {
       q: 'Is this "manifest your destiny" woo-woo stuff?',
-      a: "Not really. Everything I teach is grounded in how your mind, body, and imagination actually work together. Your brain generates electrical signals. Your muscles operate on electrical impulse. Your fascia is piezoelectric. These are measurable, scientific facts. There are also plenty of things we just don't understand yet about what makes you YOU separate from your body. I use all of these to explain what's happening when you're in a creative state — and how to get there on purpose. No crystals, no vision boards, no uncomfortable practices."
+      a: "Not really. Everything I teach is grounded in how your mind, body, and imagination actually work together. Your brain generates electrical signals. Your muscles operate on electrical impulse. Your fascia is piezoelectric. These are measurable, scientific facts. There are also plenty of things we just don't understand yet about what makes you YOU separate from your body. I use all of these to make sense of what's happening when you're in a creative state, and how to get there on purpose. No crystals, no vision boards, no uncomfortable practices."
     },
     {
       q: "I've tried everything. Can this really help?",
-      a: "If you've been trying to solve a creative block by doing more of the same thing — practicing harder, waiting or searching for inspiration, forcing yourself to sit down and produce — then you haven't tried everything. You've tried variations of the same approach. The Overtone Theory is a different approach entirely. It works with your internal state, not your external effort."
+      a: "Really? Everything? You have to admit,The Overtone Theory is a different approach entirely. It works with your internal state, not your external effort."
     },
     {
       q: "There are a lot of creative coaches out there. Why should I trust you?",
