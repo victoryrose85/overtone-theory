@@ -24,7 +24,7 @@ export default function Home() {
           
           <FadeIn delay={200}>
             <p className="text-lg md:text-xl text-clean-white/90 max-w-2xl mx-auto mb-12 font-serif leading-relaxed">
-              The Overtone Theory is a creative development practice that helps musicians, writers, artists and creators of all kinds break through internal blocks to make the kind that actually feels like you.
+              The Overtone Theory is a creative development practice that helps musicians, writers, artists and creators of all kinds push beyond self-imposed limits so they can make work that truly resonates with who they are.
             </p>
             <p className="text-lg md:text-xl text-clean-white/90 max-w-2xl mx-auto mb-12 font-serif leading-relaxed">You just have to know where to look.</p>
           </FadeIn>
@@ -46,12 +46,12 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={150}>
             <div className="space-y-6 text-lg md:text-xl font-serif">
-              <p>You sit down with your instrument, your canvas, your keyboard, your script — and nothing comes. Or worse, something comes, but it's the same thing that came last time. And the time before that.</p>
+              <p>You sit down with your instrument, your canvas, your keyboard, your tools — and nothing happens. Or something happens, but it's kinda more of the same thing that came last time. And the time before that.</p>
               <p>You've got the talent. You've put in the years. You know you're capable of making something that matters.</p>
               <p>But somewhere between the idea in your head and the thing you actually make, something gets lost. The spark fizzles. The inner critic shows up. You walk away feeling more frustrated than when you started.</p>
               <p>So you try harder. You force it. You noodle, you stare at the blank page, you hope inspiration will strike if you just sit there long enough.</p>
-              <p className="font-semibold text-purple-reign">But what if I told you that you're naturally equipped to remove your own creative blocks?</p>
-              <p>The signal is already there — it's always been there. But somewhere along the way, you let the inner voice take over. The one that edits before you create, judges before you finish, and convinces you that it's not good enough.</p>
+              <p className="font-semibold text-purple-reign">Would you believe me if I said that you're naturally equipped to do something about it?</p>
+              <p>The signal is already there. It's always been there. But somewhere along the way, you let the inner voice take over. The one that edits before you create, judges before you finish, convinces you that it's not good enough.</p>
               <p>You got in your own way, and the static took over. That's not a character flaw. You're just human.</p>
               <p className="font-sans font-bold text-xl text-purple-reign pt-4">The Overtone Theory is a fundamental understanding for actively tuning back in.</p>
             </div>
@@ -68,9 +68,9 @@ export default function Home() {
           
           <FadeIn delay={150}>
             <div className="space-y-6 text-lg md:text-xl font-serif text-clean-white/90">
-              <p>In the physics of music and electronics, an overtone is a frequency that exists naturally above the fundamental note. You don't force overtones into existence. It just happens. However, with the right conditions — specific vibrations, tuned resonance — the overtones can be shaped and selected.</p>
+              <p>In the physics of music and electronics, an overtone is any resonant frequency that exists naturally above the fundamental note. You don't force overtones into existence. It just happens. However, with the right conditions — specific vibrations, tuned resonance, the right materials — the overtones can be shaped and selected, intentionally formed to make a specific sound. It's what makes a piano, violin, and saxophone sound different, even though they play the same note.</p>
               <p>Your creativity works the same way.</p>
-              <p>You already have everything you need to create. The influences, the experiences, the emotions, the skill. It's all there, a unique perspective with unfathomable depth. But something is dampening the signal. Self-criticism, fear of judgement, creative habits that stopped working years ago, a disconnection between what you feel and what you make.</p>
+              <p>You already have everything you need to create. The influences, the experiences, the emotions, the skill. It's all there, packaged up in your unique perspective with unfathomable depth. But something is dampening the signal. Self-criticism, fear of judgement, creative habits that stopped working years ago, a disconnection between what you feel and what you make.</p>
               <p className="font-semibold text-purple-reign">Let's be real: It's hard out there in the real life. It can be real hard to feel creative.</p>
               <p>The Overtone Theory is a practice I've developed over 15+ years of working with musicians, artists, and creators of all kinds. It combines guided imaginative exercises, meditation, and compassionate conversation to help you reconnect with your creative self.</p>
               <p>I don't teach you how to make art. You already know how. I help you get out of your own way so your art can come through honestly.</p>
