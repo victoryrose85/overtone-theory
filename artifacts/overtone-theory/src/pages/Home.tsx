@@ -192,7 +192,7 @@ export default function Home() {
               <img
                 src={headshotUrl}
                 alt="DJ"
-                className="w-[200px] h-[200px] rounded-full object-cover object-top shadow-2xl ring-4 ring-soft-violet/30"
+                className="w-[200px] h-[200px] rounded-full object-cover shadow-2xl ring-4 ring-soft-violet/30" style={{ objectPosition: 'center 15%' }}
               />
             </FadeIn>
             
