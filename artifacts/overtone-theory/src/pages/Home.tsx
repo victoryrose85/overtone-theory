@@ -224,7 +224,7 @@ export default function Home() {
               <p>In one hour, you'll work through a guided scenario, connect with a brief meditation, and walk away with a real shift in how you understand your own creative process. Some people come once and get what they need. Some come back regularly. Both are great.</p>
               <p>Workshops have a suggested price, and are always pay-what-you-will. I believe in making this accessible, and I trust you to value it honestly. Nobody will ever be turned away due to lack of funds.</p>
             </div>
-            <CtaButton href="https://calendly.com/dj-overtonetheory/overtone-theory-workshop" external>See upcoming workshops</CtaButton>
+            <CtaButton href="/workshop-2026-06">See upcoming workshops</CtaButton>
           </FadeIn>
         </div>
       </section>
