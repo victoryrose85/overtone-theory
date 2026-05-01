@@ -205,10 +205,6 @@ export default function Workshop() {
                 No one will ever be turned away due to lack of funds. If you
                 can't pay, come anyway. The work matters more than the money.
               </p>
-              <p className="text-base text-abyss/50">
-                Payment via Venmo (@djpenn) or CashApp before or after the
-                workshop.
-              </p>
             </div>
           </FadeIn>
         </div>
