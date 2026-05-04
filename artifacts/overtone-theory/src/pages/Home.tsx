@@ -8,14 +8,6 @@ import headshotUrl from '@assets/headshot_1776730011258.jpg';
 export default function Home() {
   return (
     <div className="bg-clean-white overflow-x-hidden">
-      {/* ANNOUNCEMENT BANNER */}
-      <a
-        href="/workshop-2026-06"
-        className="block w-full bg-signal-gold text-abyss text-center py-3 px-6 font-sans font-bold text-sm uppercase tracking-widest hover:bg-yellow-300 transition-colors"
-      >
-        June Workshops — Click Here
-      </a>
-
       <Navigation />
 
       {/* 1. HERO */}
@@ -25,6 +17,12 @@ export default function Home() {
         
         <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
           <FadeIn>
+            <a
+              href="/workshop-2026-06"
+              className="inline-block mb-10 bg-signal-gold text-abyss font-sans font-bold text-sm uppercase tracking-widest px-6 py-3 rounded-full hover:brightness-110 transition-all"
+            >
+              June Workshops — Click Here
+            </a>
             <h1 className="text-[32px] sm:text-[40px] md:text-[56px] lg:text-[64px] font-bold text-clean-white mb-8 leading-[1.1]">
               Let's get you<br />
               <span className="text-signal-gold">back in the flow.</span>
