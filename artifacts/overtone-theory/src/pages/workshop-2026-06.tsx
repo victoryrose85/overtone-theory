@@ -1,7 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { FadeIn } from "@/components/FadeIn";
-import { CtaButton } from "@/components/CtaButton";
 import { Instagram, Youtube, Twitch } from 'lucide-react';
+
+const UTM_SOURCE = "overtonetheory-website";
 
 interface WorkshopSession {
   date: string;
@@ -9,8 +10,8 @@ interface WorkshopSession {
   time: string;
   venue: string;
   address: string;
-  inPersonLink: string;
-  zoomLink: string;
+  inPersonEventId: string;
+  virtualEventId: string;
 }
 
 const sessions: WorkshopSession[] = [
@@ -20,8 +21,8 @@ const sessions: WorkshopSession[] = [
     time: "11am – 12pm",
     venue: "Sellwood Community House",
     address: "Portland, OR",
-    inPersonLink: "https://luma.com/nuktzjsu",
-    zoomLink: "https://luma.com/qb3bmn5i",
+    inPersonEventId: "evt-vWsQVSbBenIN0pP",
+    virtualEventId: "evt-gyivA4GLmtMKLnC",
   },
   {
     date: "Sunday, June 28",
@@ -29,8 +30,8 @@ const sessions: WorkshopSession[] = [
     time: "11am – 12pm",
     venue: "SMILE Station",
     address: "Sellwood, Portland OR",
-    inPersonLink: "https://luma.com/mlqy2nmp",
-    zoomLink: "https://luma.com/w1s5k2su",
+    inPersonEventId: "evt-N2INBQMjTjewQTS",
+    virtualEventId: "evt-NJjH4ExjeLfyNqg",
   },
 ];
 
@@ -80,7 +81,7 @@ export default function Workshop() {
                     </div>
                   </div>
 
-                  {/* In-person / Zoom row */}
+                  {/* In-person / Virtual row */}
                   <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-clean-white/10">
                     <div className="px-8 py-8 flex flex-col justify-between gap-6 min-h-[160px]">
                       <div>
@@ -88,18 +89,30 @@ export default function Workshop() {
                         <p className="text-sm font-serif text-clean-white/60">{session.venue}, {session.address}</p>
                         <p className="text-xs font-sans text-signal-gold mt-2">Seats are limited.</p>
                       </div>
-                      <CtaButton href={session.inPersonLink} external>
+                      <a
+                        href={`https://luma.com/event/${session.inPersonEventId}`}
+                        className="luma-checkout--button"
+                        data-luma-action="checkout"
+                        data-luma-event-id={session.inPersonEventId}
+                        data-luma-utm-source={UTM_SOURCE}
+                      >
                         Reserve my seat
-                      </CtaButton>
+                      </a>
                     </div>
                     <div className="px-8 py-8 flex flex-col justify-between gap-6 min-h-[160px]">
                       <div>
                         <h3 className="text-lg font-bold text-clean-white mb-1">Join virtually</h3>
                         <p className="text-sm font-serif text-clean-white/60">Stream live from anywhere.</p>
                       </div>
-                      <CtaButton href={session.zoomLink} external>
-                        Sign up for Virtual
-                      </CtaButton>
+                      <a
+                        href={`https://luma.com/event/${session.virtualEventId}`}
+                        className="luma-checkout--button"
+                        data-luma-action="checkout"
+                        data-luma-event-id={session.virtualEventId}
+                        data-luma-utm-source={UTM_SOURCE}
+                      >
+                        Sign up — Virtual
+                      </a>
                     </div>
                   </div>
                 </div>
