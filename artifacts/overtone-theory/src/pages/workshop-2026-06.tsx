@@ -97,7 +97,7 @@ export default function Workshop() {
                         <p className="text-sm font-serif text-clean-white/60">Stream live from anywhere.</p>
                       </div>
                       <CtaButton href={session.zoomLink} external>
-                        Sign up — Virtual
+                        Sign up for Virtual
                       </CtaButton>
                     </div>
                   </div>
