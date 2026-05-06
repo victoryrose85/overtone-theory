@@ -226,7 +226,7 @@ export default function Home() {
           <FadeIn>
             <h2 className="text-3xl md:text-4xl font-bold mb-8">Workshops</h2>
             <div className="space-y-6 text-lg md:text-xl font-serif text-clean-white/90 mb-12">
-              <p>I run regular workshops in Portland, OR (and live over Zoom) where you can experience The Overtone Theory firsthand.</p>
+              <p>I run regular workshops in Portland, OR (and live on Twitch) where you can experience The Overtone Theory firsthand.</p>
               <p>In one hour, you'll work through a guided scenario, connect with a brief meditation, and walk away with a real shift in how you understand your own creative process. Some people come once and get what they need. Some come back regularly. Both are great.</p>
               <p>Workshops have a suggested price, and are always pay-what-you-will. I believe in making this accessible, and I trust you to value it honestly. Nobody will ever be turned away due to lack of funds.</p>
             </div>
