@@ -19,8 +19,8 @@ const sessions: WorkshopSession[] = [
     time: "11am – 12pm",
     venue: "Sellwood Community House",
     address: "Portland, OR",
-    inPersonLink: "#register",
-    zoomLink: "#register",
+    inPersonLink: "https://luma.com/nuktzjsu",
+    zoomLink: "https://luma.com/qb3bmn5i",
   },
   {
     date: "Sunday, June 28",
@@ -28,8 +28,8 @@ const sessions: WorkshopSession[] = [
     time: "11am – 12pm",
     venue: "SMILE Station",
     address: "Sellwood, Portland OR",
-    inPersonLink: "#register",
-    zoomLink: "#register",
+    inPersonLink: "https://luma.com/mlqy2nmp",
+    zoomLink: "https://luma.com/w1s5k2su",
   },
 ];
 
@@ -93,11 +93,11 @@ export default function Workshop() {
                     </div>
                     <div className="px-8 py-8 flex flex-col justify-between gap-6 min-h-[160px]">
                       <div>
-                        <h3 className="text-lg font-bold text-clean-white mb-1">Join on Zoom</h3>
+                        <h3 className="text-lg font-bold text-clean-white mb-1">Join virtually</h3>
                         <p className="text-sm font-serif text-clean-white/60">Stream live from anywhere.</p>
                       </div>
                       <CtaButton href={session.zoomLink} external>
-                        Sign up for Zoom
+                        Sign up — Virtual
                       </CtaButton>
                     </div>
                   </div>
