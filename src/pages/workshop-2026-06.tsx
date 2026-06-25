@@ -17,17 +17,8 @@ interface WorkshopSession {
 
 const sessions: WorkshopSession[] = [
   {
-    date: "Saturday, June 20",
-    dayLabel: "Session 1",
-    time: "11am – 12pm",
-    venue: "Sellwood Community House",
-    address: "Portland, OR",
-    inPersonEventId: "evt-vWsQVSbBenIN0pP",
-    virtualEventId: "evt-gyivA4GLmtMKLnC",
-  },
-  {
     date: "Sunday, June 28",
-    dayLabel: "Session 2",
+    dayLabel: "Session 1",
     time: "11am – 12pm",
     venue: "SMILE Station",
     address: "Sellwood, Portland OR",
